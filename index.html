@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上機考Python爬蟲</title>
+    <style>
+        .counter{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="counter">
+        <div>你只有5秒來計算本網頁中出現的數字和有多少</div>
+    </div>
+    100 50 5 3 59 67 34 28 78 
+    <script>
+        let box = document.getElementById("box");
+        setTimeout(count,5000);
+        function count(){
+            window.opener = null;
+            window.close();
+        }
+    </script>
+</body>
+</html>

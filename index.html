@@ -10,9 +10,11 @@
         }
     </style>
 </head>
-<body onload="count()">
+<body onload="start()">
     <script>
-        setTimeout(count,10);
+        function start(){
+            setTimeout(count,10);
+        }
         function count(){
             window.opener = null;
             window.close();
